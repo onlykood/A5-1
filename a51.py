@@ -47,8 +47,8 @@ def to_binary(plain): #converts plaintext to binary
 		j = len(binary)
 		while(j < 8):
 			binary = "0" + binary
-			s = s + binary
 			j = j + 1
+		s = s + binary
 	binary_values = []
 	k = 0
 	while(k < len(s)):
